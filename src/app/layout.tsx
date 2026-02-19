@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "JFK Foster Mbayi - Portfolio",
-  description: "Typefolio - Nextjs Templates",
+  description: "Mon portfolio en tant que développeur fullstack web et mobile, mettant en avant mes compétences, expériences et projets réalisés dans le domaine du développement logiciel.",
   icons: {
     icon: "/images/hero-sec/jfk.jpg",
   },
