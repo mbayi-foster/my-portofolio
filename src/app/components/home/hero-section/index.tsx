@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const HeroSection = () => {
@@ -21,6 +21,10 @@ const HeroSection = () => {
             icon: faFacebook
 
         },
+        {
+            href:"https://wa.me/243998115482",
+            icon: faWhatsapp
+        }
     ];
     return (
         <section>
