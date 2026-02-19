@@ -14,8 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Typefolio",
+  title: "JFK Foster Mbayi - Portfolio",
   description: "Typefolio - Nextjs Templates",
+  icons: {
+    icon: "/images/hero-sec/jfk.jpg",
+  },
 };
 
 export default function RootLayout({
